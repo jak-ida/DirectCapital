@@ -322,3 +322,14 @@ header li a:visited{
 .footer a:visited {
     color: var(--white);
 }
+.footer-1 div{
+    margin-top:0.2rem;
+}
+.yortek{
+color: var(--white);
+text-decoration: none;
+}
+.yortek:hover{
+color:var(--red1);
+cursor: pointer;
+}
