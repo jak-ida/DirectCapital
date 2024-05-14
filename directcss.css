@@ -97,13 +97,15 @@ nav {
     border-top: 1px solid transparent;
     padding: 0.5rem 1rem 0.5rem 1rem;
     text-transform: uppercase;
-    
+
 }
-header li a{
-color: var(--white);
-text-decoration: none;
+
+header li a {
+    color: var(--white);
+    text-decoration: none;
 }
-header li a:visited{
+
+header li a:visited {
     color: var(--white);
 }
 
@@ -126,7 +128,7 @@ header li a:visited{
 .header-1 div {
     width: 70%;
     margin-left: 3rem;
-    margin-top:28rem;
+    margin-top: 28rem;
 }
 
 .header-1 div h1 {
@@ -293,6 +295,7 @@ header li a:visited{
     padding: 2rem 4rem 2rem;
 
 }
+
 .footer-1 {
     background-color: var(--black1);
     color: var(--white);
@@ -302,13 +305,13 @@ header li a:visited{
 
 }
 
-.footer h2 {
-    padding-bottom: 0.5rem;
-}
+/* .footer h2 {
+    padding-bottom: 0.2rem;
+} */
 
 .footer ul {
     padding: 0;
-    padding-top:1.5rem;
+    padding-top: 1.5rem;
 }
 
 .footer a {
@@ -322,14 +325,87 @@ header li a:visited{
 .footer a:visited {
     color: var(--white);
 }
-.footer-1 div{
-    margin-top:0.2rem;
+
+.footer-1 div {
+    margin-top: 0.2rem;
 }
-.yortek{
-color: var(--white);
-text-decoration: none;
+
+.yortek {
+    color: var(--white);
+    text-decoration: none;
 }
-.yortek:hover{
-color:var(--red1);
-cursor: pointer;
+
+.yortek:hover {
+    color: var(--red1);
+    cursor: pointer;
+}
+
+/* About Page */
+
+/* About Us Section*/
+.abt {
+    display: grid;
+    text-align: left;
+}
+
+.abt-header-2 {
+    padding: 5rem 8rem 1rem;
+
+}
+
+.unique {
+    background-color: var(--white);
+    gap: 2rem;
+    padding: 1rem 15rem 4rem;
+}
+
+.unq-box {
+    border: 2px solid var(--red);
+    background-color: var(--white);
+    border-radius:.2rem ;
+    max-width: 60% !important;
+    text-align: center;
+    padding: 2rem;
+    display: grid;
+    align-items: center;
+}
+.unq-box:hover{
+    background-color: var(--red);
+    color:var(--white);
+}
+.unq-box h4, .unq-box-1 h4 {
+    font-size: 1rem !important;
+    margin:0rem;
+}
+.unq-box-1 {
+    border: 2px solid var(--red);
+    background-color: var(--red);
+    color:var(--white);
+    border-radius:.2rem ;
+    max-width: 60% !important;
+    text-align: center;
+    padding: 2rem 3rem;
+    display: grid;
+    align-items: center;
+}
+
+.unq-box-1:hover{
+    background-color: var(--white);
+    color: var(--black1);
+}
+.header-1-1 {
+    width: auto;
+    height: auto;
+    background-image: url(Images/back-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+     align-items: center;
+    padding:5rem;
+}
+.header-31 {
+    padding: 5rem 10rem;
+    background-color: var(--black);
+    color: var(--white);
 }
