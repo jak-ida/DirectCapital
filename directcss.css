@@ -86,9 +86,6 @@ h6 {
 }
 
 /* Navbar */
-.pg-active {
-    background-color: var(--red1) !important
-}
 
 nav {
     position: fixed;
