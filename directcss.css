@@ -354,13 +354,16 @@ header li a:visited {
 }
 
 .unique {
-    background-color: var(--white);
+    background-color: var(--red1);
     gap: 2rem;
-    padding: 1rem 15rem 4rem;
+    padding: 3rem 15rem 4rem;
+}
+.unique h2{
+color:var(--white)
 }
 
 .unq-box {
-    border: 2px solid var(--red);
+    border: 2px solid var(--black);
     background-color: var(--white);
     border-radius:.2rem ;
     max-width: 60% !important;
@@ -370,7 +373,7 @@ header li a:visited {
     align-items: center;
 }
 .unq-box:hover{
-    background-color: var(--red);
+    background-color: var(--black);
     color:var(--white);
 }
 .unq-box h4, .unq-box-1 h4 {
@@ -378,8 +381,8 @@ header li a:visited {
     margin:0rem;
 }
 .unq-box-1 {
-    border: 2px solid var(--red);
-    background-color: var(--red);
+    border: 2px solid var(--black);
+    background-color: var(--black);
     color:var(--white);
     border-radius:.2rem ;
     max-width: 60% !important;
