@@ -86,6 +86,13 @@ h6 {
 }
 
 /* Navbar */
+.pg-active {
+    background-color: var(--red1) !important
+}
+
+.pg-active:hover {
+    color: var(--black) !important;
+}
 
 nav {
     position: fixed;
@@ -349,7 +356,7 @@ header li a:visited {
 }
 
 .abt-header-2 {
-    padding: 7rem 8rem 1rem;
+    padding: 7rem 8rem 3rem;
 
 }
 
@@ -358,33 +365,38 @@ header li a:visited {
     gap: 2rem;
     padding: 3rem 15rem 4rem;
 }
-.unique h2{
-color:var(--white)
+
+.unique h2 {
+    color: var(--white)
 }
 
 .unq-box {
-    border: 2px solid var(--black);
+    border: 1px solid var(--black);
     background-color: var(--white);
-    border-radius:.2rem ;
+    border-radius: .2rem;
     max-width: 60% !important;
     text-align: center;
     padding: 2rem;
     display: grid;
     align-items: center;
 }
-.unq-box:hover{
+
+.unq-box:hover {
     background-color: var(--black);
-    color:var(--white);
+    color: var(--white);
 }
-.unq-box h4, .unq-box-1 h4 {
+
+.unq-box h4,
+.unq-box-1 h4 {
     font-size: 1rem !important;
-    margin:0rem;
+    margin: 0rem;
 }
+
 .unq-box-1 {
     border: 2px solid var(--black);
     background-color: var(--black);
-    color:var(--white);
-    border-radius:.2rem ;
+    color: var(--white);
+    border-radius: .2rem;
     max-width: 60% !important;
     text-align: center;
     padding: 2rem 3rem;
@@ -392,10 +404,11 @@ color:var(--white)
     align-items: center;
 }
 
-.unq-box-1:hover{
+.unq-box-1:hover {
     background-color: var(--white);
     color: var(--black1);
 }
+
 .header-1-1 {
     width: auto;
     height: auto;
@@ -404,9 +417,10 @@ color:var(--white)
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
-     align-items: center;
-    padding:5rem;
+    align-items: center;
+    padding: 5rem;
 }
+
 .header-31 {
     padding: 5rem 10rem;
     background-color: var(--black);
