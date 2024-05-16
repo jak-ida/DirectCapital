@@ -90,10 +90,6 @@ h6 {
     background-color: var(--red1) !important
 }
 
-.pg-active:hover {
-    color: var(--black) !important;
-}
-
 nav {
     position: fixed;
     background-color: var(--black1);
@@ -426,3 +422,61 @@ header li a:visited {
     background-color: var(--black);
     color: var(--white);
 }
+
+/*Contact Page*/
+.contact-header {
+    padding-top: 5.5rem;
+    background-image: url(Images/background-1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 12rem
+}
+
+.contact-header h3 {
+    margin-left: 2rem;
+    font-size: 3rem;
+    color: var(--white)
+}
+/* Contact Us Page*/
+
+.form1{
+    background-color: var(--gray);
+    height: auto;
+    padding:4rem 8rem 2rem 8rem;
+}
+
+.form-group {
+    display: inline-block;
+    width: 100%;
+    margin-top: .5rem;
+}
+
+.form {
+    padding: 2rem 7rem;
+    width: 100%;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 1rem 0.5rem;
+    border: #ccc;
+    border-bottom: 1px solid var(--black);
+    outline: var(--white) !important;
+    box-sizing: border-box;
+    margin-bottom: 0.2rem;
+}
+
+.form button {
+    margin:auto;
+    width:10%;
+    margin-top:2rem;
+    padding:0.5rem;
+}
+
+
