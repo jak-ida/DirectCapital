@@ -392,6 +392,9 @@ header li a:visited {
     color: var(--white);
     border: 1px solid transparent;
 }
+.bg-red:hover h4{
+color: var(--black);
+}
 
 
 .block-3 p {
