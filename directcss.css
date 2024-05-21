@@ -167,6 +167,9 @@ h6 {
 }
 
 /* Navbar */
+.icon{
+    height:2em;
+}
 
 nav {
     position: fixed;
@@ -218,10 +221,15 @@ header li a:visited {
 
 }
 
-.header-1 div h4 {
+.header-1 div h4{
     color: white;
     margin-left: .5em;
     margin-top: -.5em
+}
+
+.header-1 div h6{
+    color: var(--red);
+    margin-top: .5em
 }
 
 .button-red {
@@ -281,6 +289,10 @@ header li a:visited {
 
 .padd-1 {
     padding: 2rem 4rem;
+}
+.padd-2 {
+    padding: 1.5rem 4rem;
+    
 }
 
 /* .line-left {
@@ -365,6 +377,10 @@ header li a:visited {
 
 .block-3:hover h4 {
     color: var(--red);
+    
+}
+.block-3:hover{
+    cursor: pointer;
 }
 
 .of-hidden {
@@ -554,7 +570,7 @@ header li a:visited {
 /* Contact Us Page*/
 
 .form1 {
-    background-color: var(--gray);
+    /* background-color: var(--gray); */
     height: auto;
     padding: 4rem 8rem 2rem 8rem;
 }
@@ -587,7 +603,7 @@ textarea {
 
 .form button {
     margin: auto;
-    width: 10%;
+    width: 8rem;
     margin-top: 2rem;
-    padding: 0.5rem;
+    padding: 0.2rem;
 }
