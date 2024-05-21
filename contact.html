@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/cropped_image.png" />
     <title>Direct Capital</title>
     <link rel="stylesheet" href="directcss.css">
     <link rel="stylesheet" href="bootstrap.min.css">
@@ -11,19 +12,26 @@
 
 <body>
     <div class="header">
+
         <header class=" fixed-top">
-            <nav class="d-flex p-2 navbar nav navbar-expand-md justify-content-center">
+
+            <nav class="d-flex navbar navbar-expand-md justify-content-evenly">
                 <div>
-                    <li><a href="index.html">Home</a></li>
+                    <img class="icon" src="Images/lg-2.png" alt="">
                 </div>
-                <div class="line-left">
-                    <li><a href="about.html">About Us</a></li>
-                </div>
-                <div class="line-left">
-                    <li><a href="services.html">Our Services</a></li>
-                </div>
-                <div class="line-left pg-active">
-                    <li class=""><a href="contact.html">Contact Us</a></li>
+                <div class="d-flex p-2 navbar nav navbar-expand-md justify-content-center">
+                    <div>
+                        <li><a href="index.html">Home</a></li>
+                    </div>
+                    <div class="line-left">
+                        <li><a href="about.html">About Us</a></li>
+                    </div>
+                    <div class="line-left">
+                        <li><a href="services.html">Our Services</a></li>
+                    </div>
+                    <div class="line-left">
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -32,34 +40,56 @@
     <div class="contact-header">
         <h3>Contact Us</h3>
     </div>
-    <div class="form1">
-        <h3 class="text-center">Write a Message</h3>
-        <div>
-            <form class="row form">
-                <div class="col-lg">
-                    <div class="form-group">
-                        <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
-                    </div>
+    <div class="row">
+        <div class="col-lg-4 header-31">
+            <div class="padd-2">
+                <div class="d-flex">
+                    <img class="image-smaller" src="Images/fast-forward-red.png" alt="right-arrow">
+                    <h4> Our Working Hours</h4>
                 </div>
-                <div class="col-lg">
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Email Address" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="number" id="phone" name="phone" placeholder="Phone Number" required>
-                    </div>
+                <br>
+                <div class="margin-left">
+                    <h6> Monday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00 - 17:00</h6>
+                    <h6> Tuesday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00 - 17:00</h6>
+                    <h6> Wednesday: &nbsp;09:00 - 17:00</h6>
+                    <h6> Thursday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00 - 17:00</h6>
+                    <h6> Friday:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00 - 17:00</h6>
+                    <br>
                 </div>
-                <div>
-                    <div class="form-group full-width">
-                        <textarea id="message" name="message" Placeholder="Type a Message" required></textarea>
-                    </div>
-                </div>
-                <button id="ContactSubmit" class="button-red-1" type="button" onclick="SendComment()">SUBMIT</button>
-            </form>
+                <h6 class="text-center"> Closed on Saturdays, Sundays and Public Holidays</h6>
+            </div>
         </div>
+        <div class="form1 col-lg-8">
+            <h3 class="text-center">Write a Message</h3>
+            <div>
+                <form class="row form">
+                    <div class="col-lg">
+                        <div class="form-group">
+                            <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="number" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="form-group full-width">
+                            <textarea id="message" name="message" Placeholder="Type a Message" required></textarea>
+                        </div>
+                    </div>
+                    <button id="ContactSubmit" class="button-red-1" type="button"
+                        onclick="SendComment()">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+
     </div>
     <div class="row ">
         <div class="col-lg-8 center-content ">
@@ -71,9 +101,9 @@
                 <p class="margin-left"> Whether you're a startup or an
                     established enterprise, you can discover how our financing solutions
                     can support your success.</p>
-                    <p class="margin-left"> Download the document linked
+                <p class="margin-left"> Download the document linked
                     below to understand the eligibility criteria for our services.</p>
-                    
+
 
                 <button class="margin-left button-red-1" onclick="RedirectToDownload()">Download</button>
             </div>
@@ -140,4 +170,5 @@
 <script src="Bootstrap.min.js"></script>
 <script src="directjs.js"></script>
 <script src="Animations.js"></script>
+
 </html>
