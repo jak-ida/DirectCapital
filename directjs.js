@@ -4,8 +4,8 @@ function RedirectToHome(){
 function RedirectToAbout(){
     location.href="about.html"
 }
-function RedirectToServices(){
-    location.href="services.html"
+function RedirectToServices(a){
+    location.href="services.html#" + a;
 }
 function RedirectToContact(){
     location.href="contact.html"
@@ -13,3 +13,6 @@ function RedirectToContact(){
 function RedirectToDownload(){
     location.href="#"
 }
+
+
+
