@@ -89,8 +89,8 @@
                             <textarea id="message" name="message" Placeholder="Type a Message" required></textarea>
                         </div>
                     </div>
-                    <button id="ContactSubmit" class="button-red-1" type="button"
-                        onclick="SendComment()">SUBMIT</button>
+                    <button id="ContactSubmit" class="button-red-1" type="button" onclick="SendComment('1')">
+                        SUBMIT</button>
                 </form>
             </div>
         </div>
@@ -110,10 +110,13 @@
                     below to understand the eligibility criteria for our services.</p>
 
 
-                <button class="margin-left button-red-1" onclick="RedirectToDownload()">Download</button>
+                    <a href="about.html" target="_blank" download="about.html">
+                        <button class="margin-left button-red-1">Download</button>
+                    </a>
+                <button class="margin-left button-red-1" onclick="RedirectToDownload()"> Download</button>
             </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 know">
             <img src="Images/needs.jpg" alt="">
         </div>
     </div>
@@ -176,6 +179,8 @@
             alt="Back to top" src="Images/right-arrow.png">
     </button>
 
+</body>
+
     <!-- Snackbar -->
     <div id="snackbar">
         <div class="">
@@ -195,8 +200,6 @@
     </div>
 
     <div id="toast"></div>
-</body>
-
 <script src="JS/jquery-3.6.4.min.js"></script>
 <script src="JS/Snackbar.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
