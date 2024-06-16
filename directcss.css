@@ -81,18 +81,24 @@ h6 {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-p, li{
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: .9em !important;
+p,
+li {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .9em !important;
 }
 
 #snackbar {
@@ -218,7 +224,7 @@ p, li{
     }
 }
 
-  
+
 #scroll-to-top-btn {
     display: none;
     /* Hide button by default */
@@ -244,7 +250,7 @@ p, li{
 
     .reveal-fade-up-3,
     .reveal-fade-up-2 {
-        transition: 1.5s all ease;
+        transition: 1.2s all ease;
     }
 }
 
@@ -324,23 +330,26 @@ p, li{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-.title{
+
+.title {
     background-image: url(Images/title.png);
-    background-position:right ;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top:2rem;
-    height:8rem;
+    margin-top: 2rem;
+    height: 8rem;
 }
-.title h2{
-    margin-top:4.5rem;
-    margin-left:5rem;
+
+.title h2 {
+    margin-top: 4.5rem;
+    margin-left: 5rem;
     color: var(--white);
     font-size: 2.5rem;
 }
+
 /* Navbar */
-.icon{
-    height:2em;
+.icon {
+    height: 2em;
 }
 
 nav {
@@ -393,13 +402,13 @@ header li a:visited {
 
 }
 
-.header-1 div h4{
+.header-1 div h4 {
     color: white;
     margin-left: .5em;
     margin-top: -.5em
 }
 
-.header-1 div h6{
+.header-1 div h6 {
     color: var(--red);
     margin-top: .5em
 }
@@ -462,9 +471,10 @@ header li a:visited {
 .padd-1 {
     padding: 2rem 4rem;
 }
+
 .padd-2 {
     padding: 1.5rem 4rem;
-    
+
 }
 
 /* .line-left {
@@ -525,14 +535,16 @@ header li a:visited {
 }
 
 /*Services*/
-.red{
+.red {
     background-color: var(--red2) !important;
     color: var(--white) !important;
 }
-.black{
+
+.black {
     background-color: var(--black1) !important;
     color: var(--white) !important;
 }
+
 .services {
     padding: 2rem 10rem;
     display: grid;
@@ -557,9 +569,10 @@ header li a:visited {
 
 .block-3:hover h4 {
     color: var(--red);
-    
+
 }
-.block-3:hover{
+
+.block-3:hover {
     cursor: pointer;
 }
 
@@ -572,8 +585,9 @@ header li a:visited {
     color: var(--white);
     border: 1px solid transparent;
 }
-.bg-red:hover h4{
-color: var(--black);
+
+.bg-red:hover h4 {
+    color: var(--black);
 }
 
 
@@ -649,8 +663,9 @@ color: var(--black);
 .abt-header-2 {
     padding: 3rem 8rem 3rem;
 }
-.padd-top{
-padding-top:7rem;
+
+.padd-top {
+    padding-top: 7rem;
 }
 
 .unique-box {
@@ -725,6 +740,11 @@ padding-top:7rem;
     background-color: var(--black);
     color: var(--white);
 }
+.header-31-2 {
+    padding: 5rem 7rem;
+    background-color: var(--black);
+    color: var(--white);
+}
 
 .width-80 {
     width: 90%;
@@ -791,4 +811,132 @@ textarea {
     width: 8rem;
     margin-top: 2rem;
     padding: 0.2rem;
+}
+
+
+@media screen and (max-width: 500px) {
+    /*Landing Page 500px*/
+    .header-1 div h1 {
+        font-size: 2em;
+    }
+
+    .header-1 div h4 {
+        font-size: 1em;
+    }
+
+    .header-1 div {
+        margin-left: 1rem;
+    }
+
+    .header-2 {
+        padding: 2em;
+    }
+
+    .margin-left {
+        margin-left: 0rem;
+        ;
+    }
+
+    .image-smaller {
+        margin-left: 0rem;
+    }
+
+    .h2,
+    h2 {
+        font-size: calc(1.325rem + -0.1vw) !important;
+    }
+
+    .button-red-1 {
+        margin: auto auto;
+    }
+
+    .header-3 {
+        padding: 3em 2em;
+    }
+
+    .d-flex {
+        justify-content: center;
+    }
+
+    .padd {
+        padding: 2em;
+    }
+
+    .padd button {
+        margin: auto auto;
+    }
+
+    .footer {
+        padding: 2em;
+
+    }
+
+    .footer .padd-1 {
+        padding: 0em;
+        ;
+    }
+
+    .margin-left p {
+        text-align: center;
+    }
+
+    .footer iframe{
+        width:272px;
+    }
+
+
+    /*About Page 500px*/
+.abt-header-2{
+    padding:2em;
+}
+.abt-header-2 p{
+    text-align: justify;
+}
+.reverse{
+    flex-wrap: wrap-reverse;
+}
+.unique{
+    padding: 2em;;
+}
+.unq-box-1, .unq-box{
+    margin: auto;
+    min-width:80% !important;
+}
+.header-31, .header-31-2{
+    padding: 2em;;
+}
+.header-31 div p{
+    text-align: center;
+}
+.header-1-1{
+    padding: 1em;;
+}
+.header-31-2 div p{
+    text-align: justify;
+}
+img{
+    margin-bottom: 1em;;
+}
+#scroll-to-top-btn img{
+    margin-bottom: 0.2em;;
+}
+.col-lg br{
+    display: none
+}
+
+
+/* Contact 500px*/
+.padd-2{
+    padding:.75rem 2rem
+}
+.padd-2 .margin-left{
+    margin-left: 1.5em;
+}
+
+.form{
+    padding:1em 1.5em 2em 2.8em
+}
+.know img{
+    margin-bottom: 0em;
+}
 }
