@@ -11,7 +11,20 @@ function RedirectToContact(){
     location.href="contact.html"
 }
 function RedirectToDownload(){
-    location.href="#"
+    //location.href="#"
+   
+    fetch('about.html')
+    .then(response => response.blob())
+    .then(blob => {
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = 'about.html';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(link.href);
+    })
+    .catch(console.error);
 }
 
      
