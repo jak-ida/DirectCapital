@@ -378,6 +378,9 @@ header li a:visited {
     cursor: pointer;
     color: var(--red);
 }
+.bgwhite{
+    background-color: var(--white);
+}
 
 .header-1 {
     width: auto;
@@ -392,34 +395,77 @@ header li a:visited {
 
 .header-1 div {
     width: 70%;
-    margin-left: 3rem;
+    margin-left: 0rem;
     margin-top: 28rem;
+    padding: 1em 0em 0em 0em
 }
 
 .header-1 div h1 {
     font-size: 4em;
-    color: white;
+    color: var(--black);
+    margin-left: 0.5em;;
 
 }
 
 .header-1 div h4 {
-    color: white;
-    margin-left: .5em;
+    color: inherit;
+    margin-left: 1.8em;
     margin-top: -.5em
 }
 
 .header-1 div h6 {
     color: var(--red);
-    margin-top: .5em
+    margin-top: .5em;
+    float:right;
+    margin-right: 1em;
 }
 
 .button-red {
-    color: #fff;
+    color: var(--white);
     background-color: var(--red);
     border: 1px solid var(--red1);
     width: 11rem;
+    padding:0.5em;
     border-radius: .3rem;
     margin: 1rem;
+}
+
+.button-white {
+    color: var(--black);
+    background-color: var(--white);
+    border: 1px solid var(--red1);
+    width: 10rem;
+    padding:0.5em;
+    border-radius: .3rem;
+    margin: auto;
+}
+
+.button-white:hover {
+    color: var(--red);
+    background-color: var(--white);
+    border: 1px solid var(--red1);
+    width: 10rem;
+    border-radius: .3rem;
+    margin: auto;
+}
+
+.button-white-1 {
+    color: var(--white);
+    background-color: var(--red);
+    border: 1px solid var(--red1);
+    width: 10rem;
+    padding:0.5em;
+    border-radius: .3rem;
+    margin: auto;
+}
+
+.button-white-1:hover {
+    color: var(--black);
+    background-color: var(--red);
+    border: 1px solid var(--red1);
+    width: 10rem;
+    border-radius: .3rem;
+    margin: auto;
 }
 
 .button-red:hover {
@@ -435,7 +481,9 @@ header li a:visited {
     background-color: var(--white);
     overflow-y: hidden !important;
 }
-
+.engagement{
+    padding: 3rem 8rem;
+}
 .space {
     padding-bottom: 1rem;
 }
@@ -590,7 +638,11 @@ header li a:visited {
     color: var(--black);
 }
 
-
+.bg-white {
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid transparent;
+}
 .block-3 p {
     width: 90%;
     margin: auto;
@@ -732,7 +784,7 @@ header li a:visited {
     background-size: cover;
     display: grid;
     align-items: center;
-    padding: 5rem;
+    padding: 4rem;
 }
 
 .header-31 {
@@ -741,7 +793,7 @@ header li a:visited {
     color: var(--white);
 }
 .header-31-2 {
-    padding: 5rem 7rem;
+    padding: 4rem 5rem;
     background-color: var(--black);
     color: var(--white);
 }
