@@ -1,211 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="Images/cropped_image.png" />
     <title>Direct Capital</title>
-    <link rel="stylesheet" href="directcss.css">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="snackbar.css">
+    <link rel="stylesheet" href="directcss.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="snackbar.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="header">
-
-        <header class=" fixed-top">
-
-            <nav class="d-flex navbar navbar-expand-md justify-content-evenly">
-                <div>
-                    <a href="index.html"><img class="icon" src="Images/lg-2.png" alt=""></a>
-                </div>
-                <div class="d-flex p-2 navbar nav navbar-expand-md justify-content-center">
-                    <div>
-                        <li><a href="index.html">Home</a></li>
-                    </div>
-                    <div class="line-left">
-                        <li><a href="about.html">About Us</a></li>
-                    </div>
-                    <div class="line-left">
-                        <li><a href="services.html">Our Services</a></li>
-                    </div>
-                    <div class="line-left">
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </div>
-                </div>
-            </nav>
-        </header>
+      <header class="fixed-top">
+        <nav class="d-flex navbar navbar-expand-md justify-content-evenly">
+          <div>
+            <a href="index.html"
+              ><img class="icon" src="Images/lg-2.png" alt=""
+            /></a>
+          </div>
+          <div
+            class="d-flex p-2 navbar nav navbar-expand-md justify-content-center"
+          >
+            <div>
+              <li><a href="index.html">Home</a></li>
+            </div>
+            <div class="line-left">
+              <li><a href="about.html">About Us</a></li>
+            </div>
+            <div class="line-left">
+              <li><a href="services.html">Our Services</a></li>
+            </div>
+            <div class="line-left">
+              <li><a href="contact.html">Contact Us</a></li>
+            </div>
+          </div>
+        </nav>
+      </header>
     </div>
     <!-- About-->
     <div class="title">
-        <h2>Contact Us</h2>
+      <h2>Contact Us</h2>
     </div>
     <div class="row">
-        <div class="col-lg-4 header-31">
-            <div class="padd-2">
-                <div class="d-flex">
-                    <img class="image-smaller" src="Images/fast-forward-red.png" alt="right-arrow">
-                    <h4> Our Working Hours</h4>
-                </div>
-                <br>
-                <div class="margin-left">
-                    <h6> Monday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08:30 - 17:00</h6>
-                    <h6> Tuesday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08:30 - 17:00</h6>
-                    <h6> Wednesday: &nbsp;08:30 - 17:00</h6>
-                    <h6> Thursday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08:30 - 17:00</h6>
-                    <h6> Friday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08:30 - 17:00</h6>
-                    <br>
-                </div>
-                <h6 class="text-center"> Weekends are Appointment only<br><br>Closed on Public Holidays</h6>
-            </div>
+      <div class="col-lg-4 header-31">
+        <div class="padd-2">
+          <div class="d-flex">
+            <img
+              class="image-smaller"
+              src="Images/fast-forward-red.png"
+              alt="right-arrow"
+            />
+            <h4>Our Working Hours</h4>
+          </div>
+          <br />
+          <div class="margin-left">
+            <h6>
+              Monday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08:30 - 17:00
+            </h6>
+            <h6>
+              Tuesday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08:30 -
+              17:00
+            </h6>
+            <h6>Wednesday: &nbsp;08:30 - 17:00</h6>
+            <h6>Thursday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08:30 - 17:00</h6>
+            <h6>
+              Friday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08:30
+              - 17:00
+            </h6>
+            <br />
+          </div>
+          <h6 class="text-center">
+            Weekends are Appointment only<br /><br />Closed on Public Holidays
+          </h6>
         </div>
-        <div class="form1 col-lg-8">
-            <h3 class="text-center">Write a Message</h3>
+      </div>
+      <div class="form1 col-lg-8">
+        <h3 class="text-center">Write a Message</h3>
+        <div>
+          <form class="row form">
+            <div class="col-lg">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="first-name"
+                  name="first-name"
+                  placeholder="First Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="last-name"
+                  name="last-name"
+                  placeholder="Last Name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-lg">
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email Address"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  id="phone"
+                  name="phone"
+                  placeholder="Phone Number"
+                  required
+                />
+              </div>
+            </div>
             <div>
-                <form class="row form">
-                    <div class="col-lg">
-                        <div class="form-group">
-                            <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
-                        </div>
-                    </div>
-                    <div class="col-lg">
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Email Address" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="number" id="phone" name="phone" placeholder="Phone Number" required>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="form-group full-width">
-                            <textarea id="message" name="message" Placeholder="Type a Message" required></textarea>
-                        </div>
-                    </div>
-                    <button id="ContactSubmit" class="button-red-1" type="button" onclick="SendComment('1')">
-                        SUBMIT</button>
-                </form>
+              <div class="form-group full-width">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Type a Message"
+                  required
+                ></textarea>
+              </div>
             </div>
+            <button
+              id="ContactSubmit"
+              class="button-red-1"
+              type="button"
+              onclick="SendComment('1')"
+            >
+              SUBMIT
+            </button>
+          </form>
         </div>
-
+      </div>
     </div>
-    <div class="row ">
-        <div class="col-lg-8 center-content ">
-            <div class="padd">
-                <div class="d-flex ">
-                    <img class="image-smaller" src="Images/fast-forward.png" alt="right-arrow">
-                    <h2> Know your Needs</h2>
-                </div>
-                <p class="margin-left"> Whether you're a startup or an
-                    established enterprise, you can discover how our financing solutions
-                    can support your success.</p>
-                <p class="margin-left"> Download the document linked
-                    below to understand the eligibility criteria for our services.</p>
+    <div class="row">
+      <div class="col-lg-8 center-content">
+        <div class="padd">
+          <div class="d-flex">
+            <img
+              class="image-smaller"
+              src="Images/fast-forward.png"
+              alt="right-arrow"
+            />
+            <h2>Know your Needs</h2>
+          </div>
+          <p class="margin-left">
+            Whether you're a startup or an established enterprise, you can
+            discover how our financing solutions can support your success.
+          </p>
+          <p class="margin-left">
+            Download the document linked below to understand the eligibility
+            criteria for our services.
+          </p>
 
-
-                    <a href="about.html" target="_blank" download="about.html">
-                        <button class="margin-left button-red-1">Download</button>
-                    </a>
-                <button class="margin-left button-red-1" onclick="RedirectToDownload()"> Download</button>
-            </div>
+          <a
+            href="Direct-Capital-Requirements.jpg"
+            target="_blank"
+            download="Direct-Capital-Requirements.jpg"
+          >
+            <button class="margin-left button-red-1">Download</button>
+          </a>
         </div>
-        <div class="col-lg-4 know">
-            <img src="Images/needs.jpg" alt="">
-        </div>
+      </div>
+      <div class="col-lg-4 know">
+        <img src="Images/needs.jpg" alt="" />
+      </div>
     </div>
     <div class="footer">
-        <footer class="padd-1">
-            <div id="contact" class="">
-                <div class=" row">
-                    <div class="col-md-8">
-                        <div class="d-flex">
-                            <img class="image-smaller" src="Images/fast-forward-red.png" alt="right-arrow">
-                            <h2>Find Us</h2>
-                        </div>
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1813.0595860514206!2d25.91819724564715!3d-24.654028583273288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebb5ba11d16451b%3A0xad20371532a7c74d!2sPlot%20205%20Independence%20Ave%2C%20Gaborone!5e0!3m2!1sen!2sbw!4v1714737823194!5m2!1sen!2sbw"
-                            width="750" height="350" style="border:0; padding-top:1.5rem;" allowfullscreen=""
-                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="d-flex">
-                            <img class="image-smaller" src="Images/fast-forward-red.png" alt="right-arrow">
-                            <h2>Contact Us</h2>
-                        </div>
-                        <ul class="margin-left">
-                            <li class="d-flex"><img class="image-smaller" src="Images/tele.png" alt="telephone icon"> <a
-                                    href="tel:+2673901942"> +267 3901942</a></li>
-                            <li class="d-flex"><img class="image-smaller" src="Images/app.png" alt="whatsapp icon"><a
-                                    href="tel:+26773366966"> +267 73366966</a></li>
-                            <li class="d-flex"><img class="image-smaller" src="Images/email.png" alt="email icon"><a
-                                    href="mailto:info@directcapital.co.bw "> info@directcapital.co.bw </a></li>
-                            <li class="d-flex"><img class="image-smaller" src="Images/email.png" alt="email icon"><a
-                                    href="mailto:sales@directcapital.co.bw">sales@directcapital.co.bw</a></li>
-                        </ul>
-                        <br>
-                        <div class="d-flex">
-                            <img class="image-smaller" src="Images/fast-forward-red.png" alt="right-arrow">
-                            <h2>Follow Us</h2>
-                        </div>
-                        <div class="margin-left">
-                            <p> Stay connected on social media:</p>
-                            <div class="d-flex">
-                                <a href="https://web.facebook.com/profile.php?id=100063589358012" target="_blank"><img
-                                        class="image-smaller-x" src="Images/facebook.png" alt="facebook logo"></a>
-                                <a href="https://www.linkedin.com/company/directcapital/" target="_blank"><img
-                                        class="image-smaller-x" src="Images/linkedin.png" alt="linked in logo"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <footer class="padd-1">
+        <div id="contact" class="">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="d-flex">
+                <img
+                  class="image-smaller"
+                  src="Images/fast-forward-red.png"
+                  alt="right-arrow"
+                />
+                <h2>Find Us</h2>
+              </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1813.0595860514206!2d25.91819724564715!3d-24.654028583273288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebb5ba11d16451b%3A0xad20371532a7c74d!2sPlot%20205%20Independence%20Ave%2C%20Gaborone!5e0!3m2!1sen!2sbw!4v1714737823194!5m2!1sen!2sbw"
+                width="750"
+                height="350"
+                style="border: 0; padding-top: 1.5rem"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
-        </footer>
+
+            <div class="col-md-4">
+              <div class="d-flex">
+                <img
+                  class="image-smaller"
+                  src="Images/fast-forward-red.png"
+                  alt="right-arrow"
+                />
+                <h2>Contact Us</h2>
+              </div>
+              <ul class="margin-left">
+                <li class="d-flex">
+                  <img
+                    class="image-smaller"
+                    src="Images/tele.png"
+                    alt="telephone icon"
+                  />
+                  <a href="tel:+2673901942"> +267 3901942</a>
+                </li>
+                <li class="d-flex">
+                  <img
+                    class="image-smaller"
+                    src="Images/app.png"
+                    alt="whatsapp icon"
+                  /><a href="tel:+26773366966"> +267 73366966</a>
+                </li>
+                <li class="d-flex">
+                  <img
+                    class="image-smaller"
+                    src="Images/email.png"
+                    alt="email icon"
+                  /><a href="mailto:info@directcapital.co.bw ">
+                    info@directcapital.co.bw
+                  </a>
+                </li>
+                <li class="d-flex">
+                  <img
+                    class="image-smaller"
+                    src="Images/email.png"
+                    alt="email icon"
+                  /><a href="mailto:sales@directcapital.co.bw"
+                    >sales@directcapital.co.bw</a
+                  >
+                </li>
+              </ul>
+              <br />
+              <div class="d-flex">
+                <img
+                  class="image-smaller"
+                  src="Images/fast-forward-red.png"
+                  alt="right-arrow"
+                />
+                <h2>Follow Us</h2>
+              </div>
+              <div class="margin-left">
+                <p>Stay connected on social media:</p>
+                <div class="d-flex">
+                  <a
+                    href="https://web.facebook.com/profile.php?id=100063589358012"
+                    target="_blank"
+                    ><img
+                      class="image-smaller-x"
+                      src="Images/facebook.png"
+                      alt="facebook logo"
+                  /></a>
+                  <a
+                    href="https://www.linkedin.com/company/directcapital/"
+                    target="_blank"
+                    ><img
+                      class="image-smaller-x"
+                      src="Images/linkedin.png"
+                      alt="linked in logo"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-    <footer class="footer-1"> &copy; Copyright 2024, Direct Capital, All Rights Reserved <div> Designed by <a
-                class="yortek" href="www.yortek.co.bw" target="_blank">Yortek</a></div>
+    <footer class="footer-1">
+      &copy; Copyright 2024, Direct Capital, All Rights Reserved
+      <div>
+        Designed by
+        <a class="yortek" href="www.yortek.co.bw" target="_blank">Yortek</a>
+      </div>
     </footer>
 
     <!-- Scroll Up Button -->
     <button id="scroll-to-top-btn">
-        <img width="20" height="20" class="lazyloading-hidden lazyloaded" data-src="Images/right-arrow.png"
-            alt="Back to top" src="Images/right-arrow.png">
+      <img
+        width="20"
+        height="20"
+        class="lazyloading-hidden lazyloaded"
+        data-src="Images/right-arrow.png"
+        alt="Back to top"
+        src="Images/right-arrow.png"
+      />
     </button>
+  </body>
 
-</body>
-
-    <!-- Snackbar -->
-    <div id="snackbar">
-        <div class="">
-            <i class="fas fa-circle-check" style="padding:4px 10px;color:white;"></i>
-            <span id="snackmessage">
-                Some text some message..
-            </span>
-        </div>
+  <!-- Snackbar -->
+  <div id="snackbar">
+    <div class="">
+      <i
+        class="fas fa-circle-check"
+        style="padding: 4px 10px; color: white"
+      ></i>
+      <span id="snackmessage"> Some text some message.. </span>
     </div>
-    <div id="Negative-snackbar" style=" background-color: red;">
-        <div class="">
-            <i class="fas fa-circle-xmark" style="padding:4px 10px; color:white;"></i>
-            <span id="snackmessage">
-                Please Fill All Details
-            </span>
-        </div>
+  </div>
+  <div id="Negative-snackbar" style="background-color: red">
+    <div class="">
+      <i
+        class="fas fa-circle-xmark"
+        style="padding: 4px 10px; color: white"
+      ></i>
+      <span id="snackmessage"> Please Fill All Details </span>
     </div>
+  </div>
 
-    <div id="toast"></div>
-<script src="JS/jquery-3.6.4.min.js"></script>
-<script src="JS/Snackbar.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
-<script src="JS/Bootstrap.min.js"></script>
-<script src="JS/directjs.js"></script>
-<script src="JS/Animations.js"></script>
-<script src="JS/Email.js"></script>
-
+  <div id="toast"></div>
+  <script src="JS/jquery-3.6.4.min.js"></script>
+  <script src="JS/Snackbar.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  <script src="JS/Bootstrap.min.js"></script>
+  <script src="JS/directjs.js"></script>
+  <script src="JS/Animations.js"></script>
+  <script src="JS/Email.js"></script>
 </html>
