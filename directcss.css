@@ -1274,7 +1274,7 @@ img{
 
   }
 
-  .hide {
+  #whatsapp-chat.hide {
       display: none;
       animation-name: showhide;
       animation-duration: 0.5s;
@@ -1282,7 +1282,7 @@ img{
       opacity: 1;
   }
 
-  .show {
+  #whatsapp-chat.show {
       display: block;
       animation-name: showhide;
       animation-duration: 0.5s;
