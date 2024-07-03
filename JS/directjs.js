@@ -13,12 +13,12 @@ function RedirectToContact(){
 function RedirectToDownload(){
     //location.href="#"
    
-    fetch('about.html')
+    fetch('Direct-Capital-Requirements.jpg')
     .then(response => response.blob())
     .then(blob => {
         const link = document.createElement('a');
         link.href = URL.createObjectURL(blob);
-        link.download = 'about.html';
+        link.download = 'Direct-Capital-Requirements.jpg';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
