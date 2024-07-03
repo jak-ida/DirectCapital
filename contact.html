@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="directcss.css" />
     <link rel="stylesheet" href="bootstrap.min.css" />
     <link rel="stylesheet" href="snackbar.css" />
+    <link rel="stylesheet" href="dropdown3.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +21,9 @@
   <body>
     <div class="header">
       <header class="fixed-top">
-        <nav class="d-flex navbar navbar-expand-md justify-content-evenly">
+        <nav
+          class="d-flex navbar navbar-expand-md justify-content-evenly original-header"
+        >
           <div>
             <a href="index.html"
               ><img class="icon" src="Images/lg-2.png" alt=""
@@ -41,6 +44,38 @@
             <div class="line-left">
               <li><a href="contact.html">Contact Us</a></li>
             </div>
+          </div>
+        </nav>
+        <nav class="navbar navbar-expand-md dropdown-header d-none">
+          <a class="navbar-brand" href="index.html"
+            ><img class="icon" src="Images/lg-2.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
           </div>
         </nav>
       </header>
@@ -420,10 +455,10 @@
 
   <div id="toast"></div>
   <script src="JS/jquery-3.6.4.min.js"></script>
-  <script src="JS/Snackbar.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
   <script src="JS/Bootstrap.min.js"></script>
+  <script src="JS/Snackbar.js"></script>
   <script src="JS/directjs.js"></script>
   <script src="JS/Animations.js"></script>
   <script src="JS/Email.js"></script>
+  <script src="JS/dropdown3.js"></script>
 </html>
