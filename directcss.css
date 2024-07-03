@@ -87,7 +87,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Merriweather", serif;
+    font-family: "Oswald", serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -564,6 +564,11 @@ header li a:visited {
 .center-content {
     display: grid;
     align-content: center;
+}
+.center-content-1 {
+    display: grid;
+    align-content: center;
+    justify-content: center;
 }
 
 .button-red-1 {
