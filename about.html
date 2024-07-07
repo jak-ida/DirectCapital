@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="Images/cropped_image.png" />
     <title>Direct Capital</title>
-    <link rel="stylesheet" href="directcss.css" />
-    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/directcss.css" />
+    <link rel="stylesheet" href="CSS/dropdown3.css">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,33 +19,10 @@
   </head>
 
   <body>
-    <div class="header">
-      <header class="fixed-top">
-        <nav class="d-flex navbar navbar-expand-md justify-content-evenly">
-          <div>
-            <a href="index.html"
-              ><img class="icon" src="Images/lg-2.png" alt=""
-            /></a>
-          </div>
-          <div
-            class="d-flex p-2 navbar nav navbar-expand-md justify-content-center"
-          >
-            <div>
-              <li><a href="index.html">Home</a></li>
-            </div>
-            <div class="line-left">
-              <li><a href="about.html">About Us</a></li>
-            </div>
-            <div class="line-left">
-              <li><a href="services.html">Our Services</a></li>
-            </div>
-            <div class="line-left">
-              <li><a href="contact.html">Contact Us</a></li>
-            </div>
-          </div>
-        </nav>
-      </header>
-    </div>
+     <!-- Found in NavFoot.js -->
+     <header id="Header">
+    </header>
+
     <!-- About-->
     <div class="title">
       <h2>About Us</h2>
@@ -106,7 +85,7 @@
         </div>
       </div>
     </div>
-    <div class="unique row">
+    <div class="unique margin-remove row">
       <div class="d-flex">
         <img
           class="image-smaller"
@@ -115,16 +94,17 @@
         />
         <h2>Why Choose Us?</h2>
       </div>
-      <div class="col-lg unq-box-1 reveal-fade-left">
+      
+      <div class="col-md unq-box-1 reveal-fade-left">
         <h4>Funding approval within 48 hours.</h4>
       </div>
-      <div class="col-lg unq-box reveal-fade-left">
+      <div class="col-md unq-box reveal-fade-left">
         <h4>Flexible repayment plans at competitive rates.</h4>
       </div>
-      <div class="col-lg unq-box reveal-fade-left">
+      <div class="col-md unq-box reveal-fade-left">
         <h4>Highly competitive interest rates.</h4>
       </div>
-      <div class="col-lg unq-box reveal-fade-left">
+      <div class="col-md unq-box reveal-fade-left">
         <h4>Cash paid directly to suppliers with tracked delivery.</h4>
       </div>
     </div>
@@ -196,7 +176,7 @@
       </div>
     </div>
     <!-- Engagement -->
-    <div class="bg-white-1 engagement center-content row">
+    <div class="bg-white-1 engagement margin-remove row">
       <div class="col-md-8 reveal-fade-left">
         <h2>
           Flexi Rates, Stress-Free and Fast, Fast Financing or as we say
@@ -243,110 +223,9 @@
         </div>
       </div>
     </div>
-    <div class="footer">
-      <footer class="padd-1">
-        <div id="contact" class="">
-          <div class="row">
-            <div class="col-md-8">
-              <div class="d-flex">
-                <img
-                  class="image-smaller"
-                  src="Images/fast-forward-red.png"
-                  alt="right-arrow"
-                />
-                <h2>Find Us</h2>
-              </div>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1813.0595860514206!2d25.91819724564715!3d-24.654028583273288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebb5ba11d16451b%3A0xad20371532a7c74d!2sPlot%20205%20Independence%20Ave%2C%20Gaborone!5e0!3m2!1sen!2sbw!4v1714737823194!5m2!1sen!2sbw"
-                width="750"
-                height="350"
-                style="border: 0; padding-top: 1.5rem"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-              <br /><br />
-            </div>
-
-            <div class="col-md-4">
-              <div class="d-flex">
-                <img
-                  class="image-smaller"
-                  src="Images/fast-forward-red.png"
-                  alt="right-arrow"
-                />
-                <h2>Contact Us</h2>
-              </div>
-              <ul class="margin-left">
-                <li class="d-flex">
-                  <img
-                    class="image-smaller"
-                    src="Images/tele.png"
-                    alt="telephone icon"
-                  />
-                  <a href="tel:+2673901942"> +267 3901942</a>
-                </li>
-                <li class="d-flex">
-                  <img
-                    class="image-smaller"
-                    src="Images/app.png"
-                    alt="whatsapp icon"
-                  /><a href="tel:+26773366966"> +267 73366966</a>
-                </li>
-                <li class="d-flex">
-                  <img
-                    class="image-smaller"
-                    src="Images/email.png"
-                    alt="email icon"
-                  /><a href="mailto:info@directcapital.co.bw ">
-                    info@directcapital.co.bw
-                  </a>
-                </li>
-                <li class="d-flex">
-                  <img
-                    class="image-smaller"
-                    src="Images/email.png"
-                    alt="email icon"
-                  /><a href="mailto:sales@directcapital.co.bw"
-                    >sales@directcapital.co.bw</a
-                  >
-                </li>
-              </ul>
-              <br />
-              <div class="d-flex">
-                <img
-                  class="image-smaller"
-                  src="Images/fast-forward-red.png"
-                  alt="right-arrow"
-                />
-                <h2>Follow Us</h2>
-              </div>
-              <div class="margin-left">
-                <p>Stay connected on social media:</p>
-                <div class="d-flex">
-                  <a
-                    href="https://web.facebook.com/profile.php?id=100063589358012"
-                    target="_blank"
-                    ><img
-                      class="image-smaller-x"
-                      src="Images/facebook.png"
-                      alt="facebook logo"
-                  /></a>
-                  <a
-                    href="https://www.linkedin.com/company/directcapital/"
-                    target="_blank"
-                    ><img
-                      class="image-smaller-x"
-                      src="Images/linkedin.png"
-                      alt="linked in logo"
-                  /></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
+     <!-- Footer Section -->
+     <footer id="Footer" class="footer">
+    </footer>
     <!-- Whatsapp Widget -->
     <div id="whatsapp-chat" class="hide">
       <div class="header-chat">
@@ -438,109 +317,8 @@
           d="M17.5 14.3c-.3 0-1.8-.8-2-.9-.7-.2-.5 0-1.7 1.3-.1.2-.3.2-.6.1s-1.3-.5-2.4-1.5a9 9 0 01-1.7-2c-.3-.6.4-.6 1-1.7l-.1-.5-1-2.2c-.2-.6-.4-.5-.6-.5-.6 0-1 0-1.4.3-1.6 1.8-1.2 3.6.2 5.6 2.7 3.5 4.2 4.2 6.8 5 .7.3 1.4.3 1.9.2.6 0 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"
         />
       </svg>
-      Chat with Us</a
-    >
-    <!-- Whatsapp Widget -->
-    <div id="whatsapp-chat" class="hide">
-      <div class="header-chat">
-        <div class="head-home">
-          <div class="info-avatar center">
-            <img src="Images/icon.png" />
-            <span class="whatsapp-name"><h5>Direct Capital</h5></span>
-          </div>
-          <p><small>Typically replies within 24 hours</small></p>
-        </div>
-        <div class="get-new hide">
-          <div id="get-label"></div>
-          <div id="get-nama"></div>
-        </div>
-      </div>
-      <div class="home-chat"></div>
-      <div class="start-chat">
-        <div
-          pattern="https://elfsight.com/assets/chats/patterns/whatsapp.png"
-          class="WhatsappChat__Component-sc-1wqac52-0 whatsapp-chat-body"
-        >
-          <div class="WhatsappChat__MessageContainer-sc-1wqac52-1 dAbFpq">
-            <div
-              style="opacity: 0"
-              class="WhatsappDots__Component-pks5bf-0 eJJEeC"
-            >
-              <div class="WhatsappDots__ComponentInner-pks5bf-1 hFENyl">
-                <div
-                  class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotOne-pks5bf-3 ixsrax"
-                ></div>
-                <div
-                  class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotTwo-pks5bf-4 dRvxoz"
-                ></div>
-                <div
-                  class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotThree-pks5bf-5 kXBtNt"
-                ></div>
-              </div>
-            </div>
-            <div
-              style="opacity: 1"
-              class="WhatsappChat__Message-sc-1wqac52-4 kAZgZq"
-            >
-              <div class="WhatsappChat__Author-sc-1wqac52-3 bMIBDo">
-                Direct Capital
-              </div>
-              <div
-                class="WhatsappChat__Text-sc-1wqac52-2 iSpIQi"
-                style="overflow: visible"
-              >
-                Hi there 👋,<br /><br />How can we help you?
-              </div>
-              <div class="WhatsappChat__Time-sc-1wqac52-5 cqCDVm">
-                <span id="wa-time">15:30</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="blanter-msg">
-          <textarea
-            id="chat-input"
-            placeholder="Write a response"
-            maxlength="120"
-            row="1"
-          ></textarea>
-          <a href="javascript:void;" id="send-it"
-            ><svg viewBox="0 0 448 448">
-              <path
-                d="M.213 32L0 181.333 320 224 0 266.667.213 416 448 224z"
-              /></svg
-          ></a>
-        </div>
-      </div>
-      <div id="get-number"></div>
-      <a class="close-chat" href="javascript:void">×</a>
-    </div>
-    <a class="blantershow-chat" href="javascript:void" title="Show Chat"
-      ><svg width="20" viewBox="0 0 24 24">
-        <defs />
-        <path
-          fill="#eceff1"
-          d="M20.5 3.4A12.1 12.1 0 0012 0 12 12 0 001.7 17.8L0 24l6.3-1.7c2.8 1.5 5 1.4 5.8 1.5a12 12 0 008.4-20.3z"
-        />
-        <path
-          fill="#4caf50"
-          d="M12 21.8c-3.1 0-5.2-1.6-5.4-1.6l-3.7 1 1-3.7-.3-.4A9.9 9.9 0 012.1 12a10 10 0 0117-7 9.9 9.9 0 01-7 16.9z"
-        />
-        <path
-          fill="#fafafa"
-          d="M17.5 14.3c-.3 0-1.8-.8-2-.9-.7-.2-.5 0-1.7 1.3-.1.2-.3.2-.6.1s-1.3-.5-2.4-1.5a9 9 0 01-1.7-2c-.3-.6.4-.6 1-1.7l-.1-.5-1-2.2c-.2-.6-.4-.5-.6-.5-.6 0-1 0-1.4.3-1.6 1.8-1.2 3.6.2 5.6 2.7 3.5 4.2 4.2 6.8 5 .7.3 1.4.3 1.9.2.6 0 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"
-        />
-      </svg>
-      Chat with Us</a
-    >
-    <footer class="footer-1">
-      &copy; Copyright 2024, Direct Capital, All Rights Reserved
-      <div>
-        Designed by
-        <a class="yortek" href="www.yortek.co.bw" target="_blank">Yortek</a>
-      </div>
-    </footer>
+      Chat with Us</a>
+  
     <!-- Scroll Up Button -->
     <button id="scroll-to-top-btn">
       <img
@@ -558,4 +336,8 @@
   <script src="JS/Bootstrap.min.js"></script>
   <script src="JS/directjs.js"></script>
   <script src="JS/Animations.js"></script>
+  <script src="JS/NavFoot.js"></script>
+  <script src="JS/dropdown3.js"></script>
+
+  
 </html>
