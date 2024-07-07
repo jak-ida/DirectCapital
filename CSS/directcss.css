@@ -119,6 +119,9 @@ li {
     height: 100%;
     width: 100%;
 }
+.fixed-holder{
+    height: 75px !important;
+}
 
 #snackbar {
     visibility: hidden;
@@ -388,6 +391,8 @@ nav {
 #Header{
     background-color: var(--black1);
     color: var(--gray);
+    position:fixed;
+    top: 0;
 }
 header {
     padding: 5px;
@@ -434,7 +439,7 @@ header li a:visited {
 .header-1 div {
     width: 70%;
     margin-left: 0rem;
-    margin-top: 40vh;
+    margin-top: 60vh;
     padding: 1em 0em 0em 0em
 }
 
@@ -991,7 +996,7 @@ textarea {
     .header-1 div {
         width: 90%;
         margin-left: 0rem;
-        margin-top: 40vh;
+        margin-top: 60vh;
         padding: 1em 0em 0em 0em;
     }
     .title{
