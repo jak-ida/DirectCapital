@@ -928,6 +928,46 @@ textarea {
     padding: 0.2rem;
 }
 
+
+      /* Testimonials Section*/
+      .testim-sect {
+        height: auto;
+        padding: 2rem 8.5rem;
+        background-color: var(--red1);
+        
+      }
+      .testim-sect p {
+        text-align: center;
+      }
+      .testim-sect h2 {
+        color: var(--white);
+      }
+      .media-scroller {
+        display: grid;
+        gap: 1rem;
+        padding-bottom: 1.5rem;
+      }
+      .testimonial {
+        display: none;
+        padding: 1rem;
+        width: 70vw;
+        text-align: center;
+        margin: auto auto;
+        color: var(--black);
+        background-color: var(--white);
+        object-fit: cover;
+        border-radius: .2rem;
+        box-shadow: 5px 5px 5px rgb(113, 9, 9);
+      }
+      .testimonial.active {
+        display: grid;
+      }
+      .testimonial h5 {
+        text-align: center;
+      }
+
+
+
 @media (min-width: 992px) and (max-width: 1150px) {
      .header-3 {
         padding: 5rem 3rem;
@@ -952,6 +992,12 @@ textarea {
 }
 @media (min-width: 501px) and (max-width: 750px) {
 
+    .testim-sect{
+        padding: 1.5rem 3rem;
+    }
+    .testim-sect .mb-4{
+        margin-bottom: 0.5rem !important;
+    }
     .header-2 {
         padding: 5rem 3rem;
     }
@@ -995,6 +1041,12 @@ textarea {
 
 }
 @media screen and (max-width: 500px) {
+    .testim-sect{
+        padding: 1.5rem 0rem;
+    }
+    .testim-sect .mb-4{
+        margin-bottom: 0.5rem !important;
+    }
     .values{
         margin-top: 2rem;
     }
