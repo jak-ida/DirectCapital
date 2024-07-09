@@ -1,4 +1,4 @@
-var page = window.location.href.split("bw/");
+var page = window.location.href.split("DirectCapital/");
 if (page.length > 1) {
     var location = page[1].split(".")[0];
     document.getElementById(location).classList.add("active-pg")
