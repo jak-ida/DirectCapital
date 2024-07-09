@@ -100,6 +100,13 @@ li {
     font-style: normal;
     font-size: .9em !important;
 }
+
+.active-pg{
+    color:var(--red1) !important;
+}
+.no-a{
+    color: var(--white) !important;
+}
 /* fix for certain items*/
 .margin-remove{
     margin-left: 0px !important;
