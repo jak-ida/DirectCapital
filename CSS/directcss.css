@@ -120,7 +120,7 @@ li {
     width: 100%;
 }
 .fixed-holder{
-    height: 75px !important;
+    height: 70px !important;
 }
 
 #snackbar {
@@ -363,7 +363,7 @@ overflow: hidden;
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 8rem;
+    height: 5.5rem;
     flex-wrap: wrap;
     align-content: end;
     /* justify-items: end; */
@@ -379,7 +379,7 @@ overflow: hidden;
 /* Navbar */
 .icon {
     width: auto;
-    height: 75%;
+    height: 60%;
     margin-left: 3vw;
 }
 
@@ -393,11 +393,12 @@ nav {
     color: var(--gray);
     position:fixed;
     top: 0;
+    z-index: 1000;
 }
 header {
     padding: 5px;
     width: 100%;
-    height: 75px;
+    height: 70px;
     background-color: rgb(218, 218, 218);
     display: inline-flex;
     justify-content: space-between;
@@ -411,6 +412,9 @@ header {
     text-transform: uppercase;
     color: var(--white);
     text-decoration: none;
+}
+.navbar a:hover{
+    color: var(--red1);
 }
 
 header li a:visited {
@@ -563,7 +567,7 @@ header li a:visited {
 }
 
 .padd-1 {
-    padding: 2rem 4rem;
+    padding: 3rem 4rem;
 }
 
 .padd-2 {
@@ -780,7 +784,7 @@ header li a:visited {
 .unique {
     background-color: var(--red2);
     gap: 2rem;
-    padding: 3rem 3rem 4rem;
+    padding: 3rem 10rem 4rem;
 }
 
 .unique h2 {
