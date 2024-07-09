@@ -1,3 +1,20 @@
+:root {
+    --black: #000;
+    --black1: #141414;
+    --red: red;
+    --red1: rgb(219, 4, 4);
+    --red2: rgb(181, 1, 1);
+    --orange: orange;
+    --white: white;
+    --gray: rgb(238, 236, 236);
+
+}
 i {
     color: var(--tertiary-clr-2);
+}
+.active-pg{
+    color:var(--red1) !important;
+}
+.no-a{
+    color: var(--white) !important;
 }
