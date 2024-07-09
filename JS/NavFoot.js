@@ -70,7 +70,7 @@ document.getElementById('Footer').innerHTML = ` <div class="">
     </footer>`
 
 
-document.getElementById('Header').innerHTML = `<img onclick="redirectToHome()" class="icon" src="Images/lg-2.png" />
+document.getElementById('Header').innerHTML = `<a class="d-flex align-items-center" style="height: 70px" href="index.html"><img class="icon" src="Images/lg-2.png" /></a>
 <div class="navbar d-flex p-2 justify-content-center">
     <a id="Index" href="index.html" >HOME</a>
     <a id="About" href="about.html">ABOUT US</a>
