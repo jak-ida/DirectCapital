@@ -393,7 +393,7 @@ nav {
     color: var(--gray);
     position:fixed;
     top: 0;
-    z-index: 1000;
+    
 }
 header {
     padding: 5px;
@@ -403,6 +403,7 @@ header {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000;
 }
 
 
