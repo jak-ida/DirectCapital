@@ -27,6 +27,18 @@ function RedirectToDownload(){
     .catch(console.error);
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+  const testimonials = document.querySelectorAll(".testimonial");
+  let index = 0;
+
+  function showNextTestimonial() {
+    testimonials[index].classList.remove("active");
+    index = (index + 1) % testimonials.length;
+    testimonials[index].classList.add("active");
+  }
+
+  setInterval(showNextTestimonial, 8000);
+});
      
 // Show scroll-to-top button after scrolling halfway through the page
 window.onscroll = function () {
