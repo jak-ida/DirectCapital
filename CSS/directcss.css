@@ -104,7 +104,9 @@ li {
 .active-pg{
     color:var(--red1) !important;
 }
-
+.no-a{
+    color: var(--white) !important;
+}
 /* fix for certain items*/
 .margin-remove{
     margin-left: 0px !important;
@@ -1295,6 +1297,7 @@ textarea {
       color: #fff;
       border-radius: 50px;
   } */
+ 
 
   /* CSS Multiple Whatsapp Chat */
   .whatsapp-name {
@@ -1304,6 +1307,9 @@ textarea {
       margin-bottom: 0;
       line-height: 0.5;
       align-content: center;
+  }
+  .whatsapp-name h5{
+    margin-bottom: 0 ;
   }
 
   #whatsapp-chat {
@@ -1682,3 +1688,14 @@ textarea {
       margin-bottom: -4px;
   }
 
+  @media screen and (max-width: 480px) {
+    #whatsapp-chat {
+        width: auto;
+        left: 5%;
+        right: 5%;
+        font-size: 80%;
+    }
+    .header-chat p {
+        line-height: 1.2;
+    }
+}
