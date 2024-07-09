@@ -966,8 +966,71 @@ textarea {
         text-align: center;
       }
 
+    
+  
+
+      .step {
+        background-color:var(--red);
+        color: white;
+        padding: 20px;
+        height: 150px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 10px;
+        box-shadow: -10px -10px 0px 0px var(--black1);
+        border: 1px solid var(--red);
+    }
+    .step:hover{
+        background-color: var(--white);
+        border: 1px solid var(--black1);
+        color: var(--black);
+        cursor: pointer;
+        
+    }
+    
+    .arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        max-width: fit-content;
+    }
+    .arrow-1 {
+        font-size: 2rem;
+        max-width: fit-content;
+    }
+    .receivable {
+        text-align: center;
+        margin-top: 2px;
+        font-weight: bold;
+        display: grid;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        padding: 0rem 2rem ;
+    }
+    .long-arrow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .long-arrow svg {
+        width: 100%;
+        margin: 0rem 2rem;
+    }
 
 
+        .steps {
+            padding-left: 2rem;
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+        }
+.sizes{
+    min-width: 200px;
+}
 @media (min-width: 992px) and (max-width: 1150px) {
      .header-3 {
         padding: 5rem 3rem;
